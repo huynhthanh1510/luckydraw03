@@ -236,6 +236,10 @@
 .fa-user:before {
   content: "\f007";
 }
+
+.fa-user-tag:before {
+  content: "\f507";
+}
 .fa-film:before {
   content: "\f008";
 }
@@ -1362,6 +1366,17 @@
 .fa-bar-chart:before {
     content: "\f080";
 }
+
+.fa-paper-plane:before
+{
+    content: "\f1d8";
+}
 .fa-send-o:before, .fa-paper-plane-o:before {
     content: "\f1d9";
+}
+.fa-clone:before {
+    content: "\f24d";
+}
+.fa-sticky-note:before {
+    content: "\f249";
 }
