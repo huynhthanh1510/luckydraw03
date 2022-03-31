@@ -203,7 +203,7 @@ img {
 
 .data-new-campaign {
     width: 60%;
-    height: 520px;
+    height: 600px;
     margin-left: 5px;
     background-color: #fff;
     border: double;
@@ -215,9 +215,9 @@ img {
 .list-new-campaign {
     float: right;
     width: 38%;
-    height: 520px;
+    height: 600px;
     margin-right: 20px;
-    margin-top: -520px;
+    margin-top: -600px;
     background-color: #ccccff;
     border: double;
     padding: 1em;
@@ -261,8 +261,17 @@ img {
     margin-top: 10px;
 }
 
+#select-charset {
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid skyblue;
+}
+
 #text5 {
     text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     border-bottom: 2px solid skyblue;
     margin-top: 20px;
 }
@@ -273,6 +282,116 @@ img {
 
 #text5 input:focus {
     outline: none;
+}
+
+#txt-program-name {
+    width: 40%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: -20px;
+}
+
+#txt-program-name input {
+    border: none;
+}
+
+#txt-program-name input:focus {
+    outline: none;
+}
+
+#txt-description {
+    width: 100%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: 20px;
+}
+
+#txt-description input {
+    border: none;
+}
+
+#txt-description input:focus {
+    outline: none;
+}
+
+#txt-charset {
+    width: 65%;
+    float: right;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dashed;
+    margin-top: -18px;
+}
+
+#txt-charset input {
+    border: none;
+}
+
+#txt-charset input:focus {
+    outline: none;
+}
+
+#code-usage-limit {
+    width: 30%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: -10px;
+}
+
+#code-usage-limit input {
+    border: none;
+}
+
+#code-usage-limit input:focus {
+    outline: none;
+}
+
+#code-count {
+    float: right;
+    width: 34%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: -42px;
+}
+
+#code-count input {
+    border: none;
+}
+
+#code-count input:focus {
+    outline: none;
+}
+
+#checkbox-auto {
+    float: right;
+    margin-right: 360px;
+    margin-top: -20px;
+}
+
+#checkbox-unlimited {
+    float: left;
+    margin-left: 360px;
+    margin-top: -20px;
+}
+
+#name-code-count {
+    float: right;
+    margin-right: 200px;
+    margin-top: -70px;
 }
 
 #reload {
@@ -474,7 +593,7 @@ img {
     font-size: 24px;
     font-weight: bold;
     float: right;
-    margin-top: -555px;
+    margin-top: -635px;
     margin-right: 420px;
 }
 

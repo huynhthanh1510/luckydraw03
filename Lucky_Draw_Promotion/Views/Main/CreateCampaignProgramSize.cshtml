@@ -52,9 +52,45 @@
                 &emsp;&emsp;&emsp;&emsp;&emsp;
                 <input name="code" type="radio" value="Standalone code" />&emsp;<i class="fas fa-sticky-note"></i>   Standalone code
             </div>
-            <div class="blank">
-
+            <div class="blank"></div>
+            <p>Program name *</p>
+            <div id="txt-program-name">
+                <input type="text" name="program_name" placeholder="" class="col-md-5 py-2" />
             </div>
+            <div id="checkbox-auto">
+                <input type="checkbox" name="auto-update" />&emsp; Auto Update
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" name="customers" />&emsp; Customers will be allowed to join campaign only one
+            </div>
+            <div id="txt-description">
+                <input type="text" name="description" placeholder="Description" class="col-md-12 py-2" />
+            </div>
+            <br />
+            <p>Code usage limit</p>
+            <div id="code-usage-limit">
+                <input type="text" name="code-limit" placeholder="" class="col-md-5 py-2" />
+            </div>
+            <div id="checkbox-unlimited">
+                <input type="checkbox" name="unlimited" />&emsp; Unlimited
+            </div>
+            <div id="name-code-count">Code count *</div>
+            <div id="code-count">
+                <input type="text" name="code-count" placeholder="" class="col-md-5 py-2" />
+            </div>
+            <br />
+            <div>Charset</div>
+            <select id="select-charset">
+                <option>Numbers</option>
+                <option>Alphabets</option>
+            </select>
+            <div id="txt-charset">
+                <input type="text" name="charset" placeholder="" class="col-md-5 py-2" />
+            </div>
+            <br /><br />
+            <div>Code length</div>
+            <div></div>
         </div>
 
         <div id="name-campaign">New Campaign</div>
