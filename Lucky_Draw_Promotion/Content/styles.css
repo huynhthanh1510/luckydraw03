@@ -376,6 +376,24 @@ img {
     outline: none;
 }
 
+#code-length {
+    width: 30%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: 5px;
+}
+
+#code-length input {
+    border: none;
+}
+
+#code-length input:focus {
+    outline: none;
+}
+
 #checkbox-auto {
     float: right;
     margin-right: 360px;
@@ -392,6 +410,56 @@ img {
     float: right;
     margin-right: 200px;
     margin-top: -70px;
+}
+
+#prefix {
+    float: left;
+    margin-left: 300px;
+    margin-top: -70px;
+}
+
+#postfix {
+    margin-left: 600px;
+    margin-top: -70px;
+}
+
+#txt-prefix {
+    width: 32%;
+    float: right;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: -40px;
+    margin-right: 300px;
+}
+
+#txt-prefix input {
+    border: none;
+}
+
+#txt-prefix input:focus {
+    outline: none;
+}
+
+#txt-postfix {
+    width: 32%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: 6px;
+    margin-left: 600px;
+}
+
+#txt-postfix input {
+    border: none;
+}
+
+#txt-postfix input:focus {
+    outline: none;
 }
 
 #reload {
