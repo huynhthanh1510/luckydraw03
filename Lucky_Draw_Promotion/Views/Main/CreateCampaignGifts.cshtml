@@ -1,0 +1,86 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Create Campaign: Gifts</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #ccccff">
+    <div>
+        <div id="menu">
+            <ul>
+                <li><img src="~/Images/logo.png" width="64" height="64" /></li>
+                <li><a href="@Url.Action("Dashboard","Main")"><i class="fas fa-home"></i><br />Dashboard</a></li>
+                <li><a href="@Url.Action("CampaignManagement","Main")"><i class="fas fa-tags"></i><br />Campaign</a></li>
+                <li><a href="#"><i class="fas fa-gift"></i><br />Gift</a></li>
+                <li><a href="#"><i class="fas fa-user"></i><br />Customer</a></li>
+                <li><a href="#"><i class="fas fa-gear"></i><br />Setting</a></li>
+            </ul>
+        </div>
+        <div class="search-text">
+            <input type="search" name="Tìm kiếm" placeholder="Search..." />
+            <a href="#" class="search-button">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div id="title1">
+            <h6>&nbsp;<i class="fas fa-home"><span style="color:#6600cc"> Dashboard&nbsp;/ Campaign </span>/ Create New Campaign</i></h6>
+        </div>
+
+        <div id="B">
+            <div id="title2">
+                <h5>&nbsp;<i class="fas fa-tags"> Create New Campaign</i></h5>
+            </div>
+        </div>
+        <div id="title-campaign">3. Gifts</div>
+        <div class="data-new-campaign">
+            <div id="start-date">Information</div>
+            <br />
+            <select id="select-product">
+                <option disabled selected>Select a product</option>
+                <option>Bột nêm Hải Sản</option>
+                <option>Bột xốt nâu Demi</option>
+                <option>Bột xốt nêm đậm đặc thịt gà</option>
+            </select>
+            <br /><br />
+            <div id="txt-description2">
+                <input type="text" name="description" placeholder="Description" class="col-md-12 py-2"/>
+            </div>
+            <br /><br />
+            <div>&emsp;Gift code count*</div>
+            <div id="gift-code-count">
+                <input type="text" name="gift-code-count" placeholder="" class="col-md-4 py-2" style="border-style: none;" />
+            </div>
+        </div>
+
+        <div id="name-campaign">New Campaign</div>
+        <div class="list-new-campaign">
+            <button id="btnNumber">1</button>&emsp;&emsp;Program size <br />
+            <button id="btnNumber">2</button>&emsp;&emsp;Time frame <br />
+            <button id="btnNumber1">3</button>&emsp;&emsp;<span style="color: #993399; font-weight: bold">Gifts</span> <br />
+            <button id="btn-next-step-1">
+                <a href="#" style="text-decoration: none; color: #fff">Next step</a>
+            </button>
+            <br /><br />
+            <button id="btnNumber">4</button>&emsp;&emsp;Rules for gifts <br />
+            <button id="btnNumber">5</button>&emsp;&emsp;Summary <br />
+            <hr />
+            <button id="cancel"><img src="~/Images/icons8-xbox-x-24.png" /> Cancel</button>
+            <button id="save-draft">Save draft</button>
+        </div>
+    </div>
+</body>
+</html>

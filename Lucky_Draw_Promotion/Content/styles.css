@@ -159,13 +159,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -261,6 +261,14 @@ img {
     margin-top: 10px;
 }
 
+#select-product {
+    width: 95%;
+    border: none;
+    border-bottom: 2px solid skyblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 #select-charset {
     width: 270px;
     border: none;
@@ -317,6 +325,37 @@ img {
 }
 
 #txt-description input:focus {
+    outline: none;
+}
+
+#txt-description2 {
+    width: 95%;
+    text-align: left;
+    border-bottom: 2px solid skyblue;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+#txt-description2 input {
+    border: none;
+}
+
+#txt-description2 input:focus {
+    outline: none;
+}
+
+#gift-code-count {
+    width: 40%;
+    text-align: left;
+    border-bottom: 2px solid skyblue;
+    margin-left: 5px;
+}
+
+#gift-code-count input {
+    border: none;
+}
+
+#gift-code-count input:focus {
     outline: none;
 }
 
@@ -562,6 +601,48 @@ img {
     border: 2px solid orange;
 }
 
+#btnNumber1 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: -20px;
+    background-color: #993399;
+}
+
+#btnNumber {
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    margin-top: 10px;
+    margin-right: -20px;
+    background-color: #fff;
+}
+
+#btn-next-step-1 {
+    float: right;
+    width: 90px;
+    height: 40px;
+    background-color: black;
+}
+
+#cancel {
+    margin-top: 30px;
+    border: none;
+    background-color: #ccccff;
+}
+
+#save-draft {
+    float: right;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 25px;
+    background-color: #4d4dff;
+}
+
 #btn-login1 {
     font-weight: bold;
     font-size: 1em;
@@ -574,6 +655,99 @@ img {
     border: 3px solid #000000;
     border-radius: 10px;
     background-color: #6600cc;
+}
+
+#start-date {
+    color: #006666;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#end-date {
+    color: #006666;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#txt-start-date {
+    width: 40%;
+    float: left;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+#txt-start-date input {
+    border: none;
+}
+
+#txt-start-date input:focus {
+    outline: none;
+}
+
+#txt-end-date {
+    width: 40%;
+    float: left;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+#txt-end-date input {
+    border: none;
+}
+
+#txt-end-date input:focus {
+    outline: none;
+}
+
+#txt-time1 {
+    width: 40%;
+    float: right;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red;
+    margin-right: 35px;
+    margin-top: 5px;
+}
+
+#txt-time1 input {
+    border: none;
+}
+
+#txt-time1 input:focus {
+    outline: none;
+}
+
+#txt-time2 {
+    width: 40%;
+    float: right;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red;
+    margin-right: 35px;
+    margin-top: 5px;
+}
+
+#txt-time2 input {
+    border: none;
+}
+
+#txt-time2 input:focus {
+    outline: none;
 }
 
 #datepicker {
