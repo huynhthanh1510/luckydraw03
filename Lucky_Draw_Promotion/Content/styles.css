@@ -237,6 +237,12 @@ img {
     background-color: #ccccff;
 }
 
+#gift-count {
+    float: right;
+    margin-right: 120px;
+    margin-top: -72px;
+}
+
 #select2 {
     width: 140px;
     border: none;
@@ -269,10 +275,23 @@ img {
     margin-top: 10px;
 }
 
+#select-gift {
+    width: 26%;
+    border-bottom: 2px solid skyblue;
+    margin-left: 370px;
+    margin-top: -26px;
+}
+
 #select-charset {
     width: 270px;
     border: none;
     border-bottom: 2px solid skyblue;
+}
+
+#txt-select-gift {
+    float: left;
+    margin-left: 370px;
+    margin-top: -75px;
 }
 
 #text5 {
@@ -299,7 +318,7 @@ img {
     border-left: none;
     border-right: none;
     border-bottom: 2px solid skyblue;
-    margin-top: -20px;
+    margin-top: -5px;
 }
 
 #txt-program-name input {
@@ -344,6 +363,26 @@ img {
     outline: none;
 }
 
+#txt-gift {
+    width: 20%;
+    float: right;
+    text-align: left;
+    margin-right: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: -40px;
+}
+
+#txt-gift input {
+    border: none;
+}
+
+#txt-gift input:focus {
+    outline: none;
+}
+
 #gift-code-count {
     width: 40%;
     text-align: left;
@@ -357,6 +396,20 @@ img {
 
 #gift-code-count input:focus {
     outline: none;
+}
+
+#upload-gift-code {
+    float: right;
+    margin-right: 10px;
+    color: #6600cc;
+    font-weight: bold;
+}
+
+#auto-generate-code {
+    float: right;
+    margin-right: 50px;
+    color: #6600cc;
+    font-weight: bold;
 }
 
 #txt-charset {
@@ -376,6 +429,14 @@ img {
 
 #txt-charset input:focus {
     outline: none;
+}
+
+#txt-probability {
+    width: 35%;
+    float: right;
+    text-align: left;
+    margin-right: -520px;
+    margin-top: 5px;
 }
 
 #code-usage-limit {
@@ -442,6 +503,18 @@ img {
 #checkbox-unlimited {
     float: left;
     margin-left: 360px;
+    margin-top: -20px;
+}
+
+#checkbox-allday {
+    float: right;
+    margin-right: 350px;
+    margin-top: 25px;
+}
+
+#probability {
+    float: right;
+    margin-right: -320px;
     margin-top: -20px;
 }
 
@@ -538,6 +611,16 @@ img {
     height: 50px;
     box-shadow: 2px 2px 2px 2px #009999;
 }
+
+#menu2 {
+    margin-left: 18px;
+    border: 2px solid #e6e6ff;
+    width: 98%;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #009999;
+}
+
 #C {
     margin-left: 18px;
     width: 98%;
@@ -581,6 +664,16 @@ img {
     margin-right: auto;
 }
 
+#add-to-gifts {
+    float: right;
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #ff6600;
+}
+
 #btnAdd {
     width: 90px;
     height: 40px;
@@ -599,6 +692,15 @@ img {
     margin-top: 10px;
     background-color: #fff;
     border: 2px solid orange;
+}
+
+#btn-add-rule-list {
+    width: 160px;
+    height: 40px;
+    float: right;
+    font-weight: bold;
+    color: #fff;
+    background-color: orange;
 }
 
 #btnNumber1 {
@@ -625,6 +727,14 @@ img {
     width: 90px;
     height: 40px;
     background-color: black;
+}
+
+#skip {
+    float: right;
+    width: 90px;
+    height: 40px;
+    background-color: #00cccc;
+    margin-right: 10px;
 }
 
 #cancel {
@@ -750,6 +860,39 @@ img {
     outline: none;
 }
 
+#txt-time3 {
+    width: 20%;
+    float: left;
+    text-align: left;
+    border-bottom: 2px solid red;
+    margin-top: 5px;
+}
+
+#txt-time3 input {
+    border: none;
+}
+
+#txt-time3 input:focus {
+    outline: none;
+}
+
+#txt-time4 {
+    width: 20%;
+    float: left;
+    text-align: left;
+    border-bottom: 2px solid red;
+    margin-left: -65px;
+    margin-top: 5px;
+}
+
+#txt-time4 input {
+    border: none;
+}
+
+#txt-time4 input:focus {
+    outline: none;
+}
+
 #datepicker {
     float: right;
     margin-top: -40px;
@@ -792,6 +935,13 @@ img {
 #data-campaign-list {
     column-count: 8;
     text-align: center;
+}
+
+#end-time {
+    font-weight: bold;
+    float: left;
+    margin-left: 60px;
+    margin-top: -20px;
 }
 
 #footer {

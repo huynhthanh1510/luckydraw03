@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Create Campaign: Gifts</title>
+    <title>Create Campaign: Summary</title>
     <link href="~/Content/styles.css" rel="stylesheet" />
     <link href="~/Content/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -45,46 +45,43 @@
                 <h5>&nbsp;<i class="fas fa-tags"> Create New Campaign</i></h5>
             </div>
         </div>
-        <div id="title-campaign">3. Gifts</div>
+        <div id="title-campaign">5. Summary</div>
         <div class="data-new-campaign">
-            <div id="start-date">Information</div>
+            <p>Campaign: <span style="font-weight: bold">LUCKY DRAW 2</span></p>
             <br />
-            <select id="select-product">
-                <option disabled selected>Select a product</option>
-                <option>Bột nêm Hải Sản</option>
-                <option>Bột xốt nâu Demi</option>
-                <option>Bột xốt nêm đậm đặc thịt gà</option>
-            </select>
-            <br /><br />
-            <div id="txt-description2">
-                <input type="text" name="description" placeholder="Description" class="col-md-12 py-2" />
+            <div style="font-weight: bold">
+                Code count
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                Code redemption limit
             </div>
-            <br /><br />
-            <div>&emsp;Gift code count*</div>
-            <div id="gift-code-count">
-                <input type="text" name="gift-code-count" placeholder="" class="col-md-4 py-2" style="border-style: none;" />
+            <div>
+                200.000
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                1
             </div>
             <br />
-            <a href="#" id="upload-gift-code"><u>Upload Gift Codes</u></a>
-            <a href="#" id="auto-generate-code"><u>Auto Generate Codes</u></a>
-            <br /><br />
-            <button id="add-to-gifts">Add to Gifts List</button>
+            <div style="font-weight: bold">
+                Auto update
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                Time frame
+            </div>
+            <div>
+                Turn on
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                From 03/10/2020 00:00:00 To 03/27/2020 23:59:59
+            </div>
         </div>
 
         <div id="name-campaign">New Campaign</div>
         <div class="list-new-campaign">
             <button id="btnNumber">1</button>&emsp;&emsp;Program size <br />
             <button id="btnNumber">2</button>&emsp;&emsp;Time frame <br />
-            <button id="btnNumber1">3</button>&emsp;&emsp;<span style="color: #993399; font-weight: bold">Gifts</span> <br />
-            <button id="btn-next-step-1">
-                <a href="@Url.Action("CreateCampaignRulesForGifts","Main")" style="text-decoration: none; color: #fff">Next step</a>
-            </button>
-            <br /><br />
-            <button id="btnNumber">4</button>&emsp;&emsp;Rules for gifts <br />
-            <button id="btnNumber">5</button>&emsp;&emsp;Summary <br />
+            <button id="btnNumber">3</button>&emsp;&emsp;Gifts <br />
+            <button id="btnNumber">4</button>&emsp;&emsp;<span style="color: #993399; font-weight: bold">Rules for gifts</span> <br />
+            <button id="btnNumber1">5</button>&emsp;&emsp;<span style="color: #993399; font-weight: bold">Summary</span> <br />
             <hr />
             <button id="cancel"><img src="~/Images/icons8-xbox-x-24.png" /> Cancel</button>
-            <button id="save-draft">Save draft</button>
+            <button id="save-draft">Save</button>
         </div>
     </div>
 </body>

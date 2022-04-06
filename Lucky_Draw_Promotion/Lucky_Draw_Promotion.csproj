@@ -222,6 +222,9 @@
     <Content Include="Views\Main\CreateCampaignProgramSize.cshtml" />
     <Content Include="Views\Main\CreateCampaignTimeFrame.cshtml" />
     <Content Include="Views\Main\CreateCampaignGifts.cshtml" />
+    <Content Include="Views\Main\CreateCampaignRulesForGifts.cshtml" />
+    <Content Include="Views\Main\CreateCampaignSummary.cshtml" />
+    <Content Include="Views\Main\DashboardDetailLD1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

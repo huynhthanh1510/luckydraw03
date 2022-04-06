@@ -37,5 +37,20 @@ namespace Lucky_Draw_Promotion.Controllers
         {
             return View();
         }
+
+        public ActionResult CreateCampaignRulesForGifts()
+        {
+            return View();
+        }
+
+        public ActionResult CreateCampaignSummary()
+        {
+            return View();
+        }
+
+        public ActionResult DashboardDetailLD1()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,142 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Create Campaign: Rules for gifts</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #ccccff">
+    <div>
+        <div id="menu">
+            <ul>
+                <li><img src="~/Images/logo.png" width="64" height="64" /></li>
+                <li><a href="@Url.Action("Dashboard","Main")"><i class="fas fa-home"></i><br />Dashboard</a></li>
+                <li><a href="@Url.Action("CampaignManagement","Main")"><i class="fas fa-tags"></i><br />Campaign</a></li>
+                <li><a href="#"><i class="fas fa-gift"></i><br />Gift</a></li>
+                <li><a href="#"><i class="fas fa-user"></i><br />Customer</a></li>
+                <li><a href="#"><i class="fas fa-gear"></i><br />Setting</a></li>
+            </ul>
+        </div>
+        <div class="search-text">
+            <input type="search" name="Tìm kiếm" placeholder="Search..." />
+            <a href="#" class="search-button">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div id="title1">
+            <h6>&nbsp;<i class="fas fa-home"><span style="color:#6600cc"> Dashboard&nbsp;/ Campaign </span>/ Create New Campaign</i></h6>
+        </div>
+
+        <div id="B">
+            <div id="title2">
+                <h5>&nbsp;<i class="fas fa-tags"> Create New Campaign</i></h5>
+            </div>
+        </div>
+        <div id="title-campaign">4. Rules for gifts</div>
+        <div class="data-new-campaign">
+            <p>Rule name *</p>
+            <div id="txt-program-name">
+                <input type="text" name="program_name" placeholder="" class="col-md-5 py-2" />
+            </div>
+            <div id="txt-select-gift">Select gift *</div>
+            <div id="select-gift">
+                <select style="border-style: none;">
+                    <option disabled selected></option>
+                    <option>Bột nêm Hải Sản</option>
+                    <option>Bột xốt nâu Demi</option>
+                    <option>Bột xốt nêm đậm đặc thịt gà</option>
+                </select>
+            </div>
+            <div id="gift-count">Gift count *</div>
+            <div id="txt-gift">
+                <input type="text" name="gift_count" placeholder="" class="col-md-3 py-2" />
+            </div>
+            <br />
+            <div style="font-weight: bold">Start time *</div>
+            <div id="txt-time3"><i class="fas fa-clock-o"></i><input type="text" placeholder="Enter time" class="col-md-7 py-2" style="border-style: none;" /></div>
+            <div id="end-time">End time</div>
+            <div id="txt-time4"><i class="fas fa-clock-o"></i><input type="text" placeholder="Enter time" class="col-md-7 py-2" style="border-style: none;" /></div>
+            <div id="checkbox-allday"><input type="checkbox"/> All day</div>
+            <div id="probability">Probability (%)</div>
+            <div id="txt-probability"><input type="text" placeholder="0" class="col-md-7 py-2"/></div>
+            <br /><br /><br />
+            <div style="font-weight: bold">Repeat Schedule</div>
+            <br />
+            <div>
+                <input type="radio" /> Monthly on day
+                &emsp;&emsp;&emsp;&emsp;&ensp;
+                <i class="fas fa-calendar"></i>&emsp;
+                <select style="width: 140px; border-style: none; border-bottom: 2px solid skyblue">
+                    <option disabled selected>Select day(s)</option>
+                    <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+                    <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+                    <option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <input type="radio" /> Weekly on
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" /> Mon
+                &emsp;&emsp;&emsp;
+                <input type="checkbox" /> Tue
+                &emsp;&emsp;&emsp;
+                <input type="checkbox" /> Wed
+                &emsp;&emsp;&emsp;
+                <input type="checkbox" /> Thu
+                &emsp;&emsp;&emsp;
+                <input type="checkbox" /> Fri
+                &emsp;&emsp;&emsp;
+                <input type="checkbox" /> Sat
+                &emsp;&emsp;&emsp;
+                <input type="checkbox" /> Sun
+            </div>
+            <br />
+            <div>
+                <input type="radio" /> Repeat daily
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <i class="fas fa-calendar"></i>&emsp;<input type="text" placeholder="Start date" style="border-style: none; border-bottom: 2px solid skyblue" class="col-md-2 py-2" />
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <i class="fas fa-calendar"></i>&emsp;<input type="text" placeholder="End date" style="border-style: none; border-bottom: 2px solid skyblue" class="col-md-2 py-2" />
+            </div>
+            <br />
+            <div>
+                <button id="btn-add-rule-list">Add to Rule list</button>
+            </div>
+        </div>
+        
+        <div id="name-campaign">New Campaign</div>
+        <div class="list-new-campaign">
+            <button id="btnNumber">1</button>&emsp;&emsp;Program size <br />
+            <button id="btnNumber">2</button>&emsp;&emsp;Time frame <br />
+            <button id="btnNumber">3</button>&emsp;&emsp;Gifts <br />
+            <button id="btnNumber1">4</button>&emsp;&emsp;<span style="color: #993399; font-weight: bold">Rules for gifts</span> <br />
+            <button id="btn-next-step-1">
+                <a href="@Url.Action("CreateCampaignSummary","Main")" style="text-decoration: none; color: #fff">Next step</a>
+            </button>
+
+            <button id="skip">
+                <a href="@Url.Action("CreateCampaignSummary","Main")" style="text-decoration: none; color: #fff">Skip</a>
+            </button>
+            <br /><br />
+            <button id="btnNumber">5</button>&emsp;&emsp;Summary <br />
+            <hr />
+            <button id="cancel"><img src="~/Images/icons8-xbox-x-24.png" /> Cancel</button>
+            <button id="save-draft">Save draft</button>
+        </div>
+    </div>
+</body>
+</html>
