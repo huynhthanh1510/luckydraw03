@@ -225,6 +225,31 @@ img {
     box-shadow: 2px 2px 2px 2px #009999;
 }
 
+.data-lucky-draw {
+    width: 50%;
+    height: 530px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: double;
+    padding: 1em;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px #009999;
+}
+
+.data-chart {
+    width: 48%;
+    height: 530px;
+    float: right;
+    margin-right: 14px;
+    margin-top: -530px;
+    background-color: #fff;
+    border: double;
+    padding: 1em;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px #009999;
+}
+
 .choose-code {
     height: 50px;
     font-weight: bold;
@@ -235,6 +260,102 @@ img {
     width: 120%;
     height: 20px;
     background-color: #ccccff;
+}
+
+.blank2 {
+    margin-left: -15px;
+    margin-top: -40px;
+    width: 120%;
+    height: 20px;
+    background-color: #ccccff;
+}
+
+.chart {
+    width: 600px;
+    height: 300px;
+    display: block;
+}
+
+.numbers {
+    color: #9900ff;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.numbers li {
+    list-style: none;
+    height: 150px;
+    position: relative;
+    bottom: 145px;
+}
+
+.numbers span {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.bars {
+    color: #9900ff;
+    font-size: 12px;
+    font-weight: 600;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    box-shadow: 0 0 10px 0 #f2f2f2;
+    border-radius: 5px;
+}
+
+.bars li {
+    display: table-cell;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    border-left: 1px solid skyblue;
+    border-right: 1px solid skyblue;
+}
+
+.bars span {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+}
+
+.bars .bar {
+    display: block;
+    background: #17C0EB;
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 45px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+}
+
+.bars .bar:hover {
+    background: #55EFC4;
+    box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+    cursor: pointer;
+}
+
+.bars .bar:before {
+    color: #fff;
+    content: attr(data-percentage);
+    position: relative;
+    bottom: 20px;
 }
 
 #gift-count {
@@ -617,8 +738,19 @@ img {
     border: 2px solid #e6e6ff;
     width: 98%;
     height: 50px;
+    font-weight: bold;
     background-color: #fff;
     box-shadow: 2px 2px 2px 2px #009999;
+    column-count: 7;
+}
+
+#menu2 a {
+    color: #9900cc;
+    margin-left: 50px;
+}
+
+#menu2 a:visited {
+    border-bottom: 10px solid orange;
 }
 
 #C {
@@ -682,6 +814,16 @@ img {
     margin-top: 10px;
     margin-right: -20px;
     background-color: #fff;
+}
+
+#load-more {
+    float: right;
+    margin-right: 5px;
+    margin-top: -15px;
+    font-weight: bold;
+    background-color: orange;
+    width: 160px;
+    height: 50px;
 }
 
 #btnReload {
@@ -897,6 +1039,7 @@ img {
     float: right;
     margin-top: -40px;
     margin-right: 10px;
+    border: 2px solid #3333ff;
 }
 
 #createcp {
