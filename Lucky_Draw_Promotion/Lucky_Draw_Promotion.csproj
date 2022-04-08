@@ -224,7 +224,8 @@
     <Content Include="Views\Main\CreateCampaignGifts.cshtml" />
     <Content Include="Views\Main\CreateCampaignRulesForGifts.cshtml" />
     <Content Include="Views\Main\CreateCampaignSummary.cshtml" />
-    <Content Include="Views\Main\DashboardDetailLD1.cshtml" />
+    <Content Include="Views\Main\ManageDashboard.cshtml" />
+    <Content Include="Views\Main\ManageBarcodes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
