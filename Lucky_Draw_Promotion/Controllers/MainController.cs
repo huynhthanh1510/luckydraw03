@@ -47,15 +47,5 @@ namespace Lucky_Draw_Promotion.Controllers
         {
             return View();
         }
-
-        public ActionResult ManageDashboard()
-        {
-            return View();
-        }
-
-        public ActionResult ManageBarcodes()
-        {
-            return View();
-        }
     }
 }

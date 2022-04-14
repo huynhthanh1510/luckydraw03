@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Manage Barcodes</title>
+    <title>Manage Dashboard</title>
     <link href="~/Content/styles.css" rel="stylesheet" />
     <link href="~/Content/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -46,46 +46,64 @@
             </div>
         </div>
         <div id="menu2">
-            <div><a href="@Url.Action("ManageDashboard","Main")">Dashboard</a></div>
-            <div><a href="@Url.Action("ManageBarcodes","Main")">Barcode</a></div>
+            <div><a href="@Url.Action("ManageDashboard","Manage")">Dashboard</a></div>
+            <div><a href="@Url.Action("ManageBarcodes","Manage")">Barcode</a></div>
             <div><a href="#">Barcode history</a></div>
             <div><a href="#">Gifts</a></div>
             <div><a href="#">Rules for Gift</a></div>
             <div><a href="#">Winners</a></div>
             <div><a href="#">Settings</a></div>
         </div>
-        <div id="filter">
-            <select id="select2">
-                <option>Match all filters</option>
-                <option>Match any filters</option>
-            </select>
-            <br />
-            <select id="select3">
-                <option disabled selected>Search criteria</option>
-                <option>Campaign Name</option>
-                <option>Create Date</option>
-                <option>Expired Date</option>
-            </select>
-            <br />
-            <select id="select4">
-                <option disabled selected>Condition...</option>
-                <option id="opt1">Program type is Gift Card</option>
-                <option id="opt2">Start date is more than 1 month</option>
-            </select>
-            <br />
-            <div id="text5">
-                <input type="text" name="value" placeholder="Value" class="col-md-12 py-2" />
+        <div class="data-lucky-draw">
+            <h2>LUCKY DRAW 1</h2>
+            <br /><br />
+            <div style="border-bottom: 2px solid skyblue;">
+                Timeframe
+                <span style="float: right">02/08/2020 - 02/10/2020</span>
             </div>
-
-            <div>
-                <button id="btnAdd">
-                    <i class="fas fa-plus"></i> Add
-                </button>
+            <br /><br />
+            <div style="border-bottom: 2px solid skyblue;">
+                Created Code
+                <span style="float: right">200.000 / <i class="fas fa-unlock"></i>&nbsp;Auto Update</span>
+            </div>
+            <br /><br />
+            <div style="border-bottom: 2px solid skyblue;">
+                Usage limit per code
+                <span style="float: right">1</span>
+            </div>
+            <br /><br />
+            <div style="border-bottom: 2px solid skyblue;">
+                Description
             </div>
         </div>
-        <div id="filter-cdt">
-            <div id="reload">
-                <button id="btnReload">Reload</button>
+        <div class="data-chart">
+            <h3>Usage summary</h3>
+            <div id="datepicker">
+                <h5><i class="fas fa-calendar"> 24/2/2020 - 15/3/2020</i></h5>
+            </div>
+            <div style="float: right; font-weight: bold">Total: 1</div>
+            <br /><br />
+            <div class="chart">
+                <ul class="numbers">
+                    <li><span>1</span></li>
+                    <li><span>0</span></li>
+                </ul>
+
+                <ul class="bars">
+                    <li><span>2020-02-24</span></li>
+                    <li><span>2020-03-02</span></li>
+                    <li><div class="bar" data-percentage="1"></div><span>2020-03-09</span></li>
+                    <li><span>2020-03-16</span></li>
+                </ul>
+            </div>
+            <div class="blank2"></div>
+            <div style="font-size: 24px">
+                <span style="font-weight: bold">Recent campaign changes</span>
+                <span style="float: right">Total: 0</span>
+            </div>
+            <br /><br />
+            <div>
+                <button id="load-more"><i class="fas fa-repeat"></i>  Load more</button>
             </div>
         </div>
 </body>

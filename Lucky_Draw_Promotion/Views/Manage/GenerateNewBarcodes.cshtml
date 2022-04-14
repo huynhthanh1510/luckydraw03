@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Generate New Barcodes</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #ccccff">
+    <div id="generate-new-code">
+        <h2 style="font-weight: bold; margin-left: 20px">Generate new Barcode(s)</h2>
+        <br />
+        <p style="margin-left: 20px;">Code redemption limit</p>
+        <div id="code-usage-limit" style="margin-left: 20px">
+            <input type="text" name="code-limit" placeholder="" class="col-md-5 py-2" />
+        </div>
+        <div id="checkbox-unlimited">
+            <input type="checkbox" name="unlimited" />&emsp; Unlimited
+        </div>
+        <br />
+        <p style="margin-left: 20px;">Code count *</p>
+        <div id="code-count-2">
+            <input type="text" name="code-count" placeholder="" class="col-md-5 py-2" />
+        </div>
+        <br /><br />
+        <p style="margin-left: 20px;">Charset</p>
+        <select id="select-charset-2">
+            <option>Numbers</option>
+            <option>Alphabets</option>
+        </select>
+        <div id="txt-charset">
+            <input type="text" name="charset" placeholder="0123456789" class="col-md-5 py-2" />
+        </div>
+        <br /><br />
+        <div style="margin-left: 20px;">
+            Code length
+            <span style="margin-left: 160px;">Prefix</span>
+            <span style="margin-left: 190px;">Postfix</span>
+        </div>
+        <div style="margin-left: 20px;">
+            <input type="text" name="code-length" class="col-md-3 py-2" style="border-style: none; border-bottom: 2px solid skyblue;"/>
+            <span style="margin-left: 70px;"><input type="text" name="prefix" class="col-md-3 py-2" style="border-style: none; border-bottom: 2px solid skyblue;"/></span>
+            <span style="margin-left: 70px;"><input type="text" name="postfix" class="col-md-3 py-2" style="border-style: none; border-bottom: 2px solid skyblue;"/></span>
+        </div>
+        <br />
+        <div>
+            <button id="btn-generate-code">Generate code</button>
+            <button id="btn-cancel">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

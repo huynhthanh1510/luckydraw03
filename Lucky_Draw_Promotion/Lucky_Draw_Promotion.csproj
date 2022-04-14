@@ -131,6 +131,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,6 +166,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\barcode.png" />
     <Content Include="Images\icons8-key-64.png" />
     <Content Include="Images\icons8-user-64 %281%29.png" />
     <Content Include="Images\icons8-user-64.png" />
@@ -224,8 +226,11 @@
     <Content Include="Views\Main\CreateCampaignGifts.cshtml" />
     <Content Include="Views\Main\CreateCampaignRulesForGifts.cshtml" />
     <Content Include="Views\Main\CreateCampaignSummary.cshtml" />
-    <Content Include="Views\Main\ManageDashboard.cshtml" />
-    <Content Include="Views\Main\ManageBarcodes.cshtml" />
+    <Content Include="Views\Manage\ManageDashboard.cshtml" />
+    <Content Include="Views\Manage\ManageBarcodes.cshtml" />
+    <Content Include="Views\Manage\GenerateNewBarcodes.cshtml" />
+    <Content Include="Views\Manage\Code_Detail.cshtml" />
+    <Content Include="Views\Manage\ManageBarcodeHistory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
