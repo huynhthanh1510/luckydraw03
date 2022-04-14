@@ -44,9 +44,6 @@
             <div id="title2">
                 <h5>&nbsp;<i class="fas fa-tags"> Campaign LUCKY DRAW 2</i></h5>
             </div>
-            <div id="createcp" style="margin-right: 50px">
-                <a href="@Url.Action("GenerateNewBarcodes","Manage")" style="color: #ff3333"><i class="fas fa-plus-circle fa-2x"></i></a>
-            </div>
             <div id="download">
                 <a href="#" style="color: #000"><i class="fas fa-download fa-2x"></i></a>
             </div>
@@ -54,7 +51,7 @@
         <div id="menu2">
             <div><a href="@Url.Action("ManageDashboard","Manage")">Dashboard</a></div>
             <div><a href="@Url.Action("ManageBarcodes","Manage")">Barcode</a></div>
-            <div><a href="#">Barcode history</a></div>
+            <div><a href="@Url.Action("ManageBarcodeHistory","Manage")">Barcode history</a></div>
             <div><a href="#">Gifts</a></div>
             <div><a href="#">Rules for Gift</a></div>
             <div><a href="#">Winners</a></div>
