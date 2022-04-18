@@ -55,9 +55,9 @@
             <div><a href="@Url.Action("ManageDashboard","Manage")">Dashboard</a></div>
             <div><a href="@Url.Action("ManageBarcodes","Manage")">Barcode</a></div>
             <div><a href="@Url.Action("ManageBarcodeHistory","Manage")">Barcode history</a></div>
-            <div><a href="#">Gifts</a></div>
-            <div><a href="#">Rules for Gift</a></div>
-            <div><a href="#">Winners</a></div>
+            <div><a href="@Url.Action("ManageGifts","Manage")">Gifts</a></div>
+            <div><a href="@Url.Action("ManageRulesForGift","Manage")">Rules for Gift</a></div>
+            <div><a href="@Url.Action("ManageWinner","Manage")">Winners</a></div>
             <div><a href="#">Settings</a></div>
         </div>
         <div id="filter">
@@ -176,5 +176,6 @@
                 <div><i style="float: right; margin-right: 5px; margin-top: -20px">Showing 1 to 5 of 50 entries</i></div>
             </div>
         </div>
+    </div>
 </body>
 </html>

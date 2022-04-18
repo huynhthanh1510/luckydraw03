@@ -1,0 +1,131 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Add New Rules for Gifts</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #ccccff">
+    <div id="add-new-rules">
+        <h2 style="font-weight: bold; margin-left: 20px">Add New Rules for Gifts</h2>
+        <br />
+        <div id="txt-description2">
+            <input type="text" name="description" placeholder="Rule name *" class="col-md-12 py-2" />
+        </div>
+        <br />
+        <div style="float: right; margin-right: 300px;">
+            Gift count *
+        </div>
+        <br />
+        <div>
+            <select id="select-gift-2">
+                <option disabled selected>Select gift</option>
+                <option>Bột nêm Hải Sản</option>
+                <option>Bột xốt nâu Demi</option>
+                <option>Bột xốt nêm đậm đặc thịt gà 1kg</option>
+                <option>Bột xốt nêm đậm đặc thịt gà 450gr</option>
+            </select>
+            &emsp;&emsp;&emsp;
+            <div id="txt-gift-2">
+                <input type="text" name="gift_count" placeholder="" class="col-md-8 py-2" />
+            </div>
+        </div>
+        <br />
+        <div style="font-weight: bold; margin-left: 20px;">Start time *</div>
+        <div id="txt-time3" style="margin-left: 20px;"><i class="fas fa-clock-o"></i><input type="text" placeholder="Enter time" class="col-md-10 py-2" style="border-style: none;" /></div>
+        <div id="end-time">End time</div>
+        <div id="txt-time4">
+            <i class="fas fa-clock-o"></i><input type="text" placeholder="Enter time" class="col-md-10 py-2" style="border-style: none;" />
+        </div>
+        <div id="checkbox-allday-2"><input type="checkbox" /> All day</div>
+        <div id="probability-2">Probability (%)</div>
+        <div id="txt-probability-2"><input type="text" placeholder="0" class="col-md-7 py-2" /></div>
+        <br /><br /><br />
+        <div style="font-weight: bold; margin-left: 20px;">Repeat Schedule</div>
+        <br />
+        <div style="margin-left: 20px;">
+            <input type="radio" /> Monthly on day
+            &emsp;&emsp;&emsp;&emsp;&ensp;
+            <i class="fas fa-calendar"></i>&emsp;
+            <select style="width: 140px; border-style: none; border-bottom: 2px solid skyblue">
+                <option disabled selected>Select day(s)</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+        </div>
+        <br />
+        <div style="margin-left: 20px;">
+            <input type="radio" /> Weekly on
+            &emsp;&emsp;&emsp;
+            <input type="checkbox" /> Mon
+            &emsp;&emsp;
+            <input type="checkbox" /> Tue
+            &emsp;&emsp;
+            <input type="checkbox" /> Wed
+            &emsp;&emsp;
+            <input type="checkbox" /> Thu
+            &emsp;&emsp;
+            <input type="checkbox" /> Fri
+            &emsp;&emsp;
+            <input type="checkbox" /> Sat
+            &emsp;&emsp;
+            <input type="checkbox" /> Sun
+        </div>
+        <br />
+        <div style="margin-left: 20px;">
+            <input type="radio" /> Repeat daily
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <i class="fas fa-calendar"></i>&emsp;<input type="text" placeholder="Start date" style="border-style: none; border-bottom: 2px solid skyblue" class="col-md-2 py-2" />
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <i class="fas fa-calendar"></i>&emsp;<input type="text" placeholder="End date" style="border-style: none; border-bottom: 2px solid skyblue" class="col-md-2 py-2" />
+        </div>
+        <br />
+        <div>
+            <button id="add-to-gifts-2"><i class="fas fa-plus"></i>&emsp;Add to Rules List</button>
+            <button id="btn-cancel">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

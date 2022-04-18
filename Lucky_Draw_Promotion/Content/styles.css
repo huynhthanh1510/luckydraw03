@@ -403,6 +403,15 @@ img {
     margin-top: -26px;
 }
 
+#select-gift-2 {
+    width: 40%;
+    float: left;
+    border-style: none;
+    border-bottom: 2px solid skyblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 #select-charset {
     width: 270px;
     border: none;
@@ -511,6 +520,26 @@ img {
     outline: none;
 }
 
+#txt-gift-2 {
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-right: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid skyblue;
+    margin-top: -28px;
+}
+
+#txt-gift-2 input {
+    border: none;
+}
+
+#txt-gift-2 input:focus {
+    outline: none;
+}
+
 #gift-code-count {
     width: 40%;
     text-align: left;
@@ -564,6 +593,14 @@ img {
     float: right;
     text-align: left;
     margin-right: -520px;
+    margin-top: 5px;
+}
+
+#txt-probability-2 {
+    width: 35%;
+    float: right;
+    text-align: left;
+    margin-right: -410px;
     margin-top: 5px;
 }
 
@@ -660,9 +697,21 @@ img {
     margin-top: 25px;
 }
 
+#checkbox-allday-2 {
+    float: right;
+    margin-right: 270px;
+    margin-top: 20px;
+}
+
 #probability {
     float: right;
     margin-right: -320px;
+    margin-top: -20px;
+}
+
+#probability-2 {
+    float: right;
+    margin-right: -250px;
     margin-top: -20px;
 }
 
@@ -833,6 +882,17 @@ img {
     background-color: #ff6600;
 }
 
+#add-to-gifts-2 {
+    float: right;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: #ff6600;
+}
+
 #btnAdd {
     width: 90px;
     height: 40px;
@@ -998,6 +1058,30 @@ img {
 }
 
 #data-barcode-history {
+    background-color: #fff;
+    border: 2px solid blue;
+    width: 98%;
+    height: 430px;
+    margin-left: 20px;
+}
+
+#data-gifts {
+    background-color: #fff;
+    border: 2px solid blue;
+    width: 98%;
+    height: 430px;
+    margin-left: 20px;
+}
+
+#rules-for-gift {
+    background-color: #fff;
+    border: 2px solid blue;
+    width: 98%;
+    height: 430px;
+    margin-left: 20px;
+}
+
+#winner {
     background-color: #fff;
     border: 2px solid blue;
     width: 98%;
@@ -1190,6 +1274,14 @@ img {
 #generate-new-code {
     width: 700px;
     height: 600px;
+    background: #fff;
+    margin: 50px auto;
+    border: 2px solid blue;
+}
+
+#add-new-rules {
+    width: 750px;
+    height: 650px;
     background: #fff;
     margin: 50px auto;
     border: 2px solid blue;

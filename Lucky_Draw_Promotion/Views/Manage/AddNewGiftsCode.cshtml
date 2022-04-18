@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Generate New Barcodes</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #ccccff">
+    <div id="generate-new-code">
+        <h2 style="font-weight: bold; margin-left: 20px">Add New Gift(s) Code</h2>
+        <br />
+        <select id="select-product">
+            <option disabled selected>Select a product</option>
+            <option>Bột nêm Hải Sản</option>
+            <option>Bột xốt nâu Demi</option>
+            <option>Bột xốt nêm đậm đặc thịt gà</option>
+        </select>
+        <br />
+        <div id="txt-description2">
+            <input type="text" name="description" placeholder="Description" class="col-md-12 py-2" />
+        </div>
+        <br />
+        <div>&emsp;Code count *</div>
+        <div id="gift-code-count">
+            <input type="text" name="gift-code-count" placeholder="" class="col-md-4 py-2" style="border-style: none;" />
+        </div>
+        <br />
+        <a href="#" id="upload-gift-code"><u>Upload Gift Codes</u></a>
+        <a href="#" id="auto-generate-code"><u>Auto Generate Codes</u></a>
+        <br /><br />
+        <div>
+            <button id="add-to-gifts-2"><i class="fas fa-plus"></i>&emsp;Add to Gifts List</button>
+            <button id="btn-cancel">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -231,6 +231,11 @@
     <Content Include="Views\Manage\GenerateNewBarcodes.cshtml" />
     <Content Include="Views\Manage\Code_Detail.cshtml" />
     <Content Include="Views\Manage\ManageBarcodeHistory.cshtml" />
+    <Content Include="Views\Manage\ManageGifts.cshtml" />
+    <Content Include="Views\Manage\AddNewGiftsCode.cshtml" />
+    <Content Include="Views\Manage\ManageRulesForGift.cshtml" />
+    <Content Include="Views\Manage\AddNewRules.cshtml" />
+    <Content Include="Views\Manage\ManageWinner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
