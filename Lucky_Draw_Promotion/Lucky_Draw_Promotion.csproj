@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -172,6 +173,7 @@
     <Content Include="Images\icons8-user-64.png" />
     <Content Include="Images\icons8-xbox-x-24.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\unilever-logo.png" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -236,6 +238,10 @@
     <Content Include="Views\Manage\ManageRulesForGift.cshtml" />
     <Content Include="Views\Manage\AddNewRules.cshtml" />
     <Content Include="Views\Manage\ManageWinner.cshtml" />
+    <Content Include="Views\Manage\ManageSetting.cshtml" />
+    <Content Include="Views\Customer\LoginUser.cshtml" />
+    <Content Include="Views\Customer\ForgotPassword.cshtml" />
+    <Content Include="Views\Customer\OTPConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

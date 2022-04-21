@@ -1036,6 +1036,34 @@ img {
     background-color: #6600cc;
 }
 
+#btn-dangnhap {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border-radius: 15px;
+    background-color: darkorange;
+}
+
+#btn-submit {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border-radius: 15px;
+    background-color: darkorange;
+}
+
 #start-date {
     color: #006666;
     font-weight: bold;
@@ -1086,6 +1114,14 @@ img {
     border: 2px solid blue;
     width: 98%;
     height: 430px;
+    margin-left: 20px;
+}
+
+#setting {
+    background-color: #fff;
+    border: 2px solid blue;
+    width: 98%;
+    height: 500px;
     margin-left: 20px;
 }
 
@@ -1287,12 +1323,47 @@ img {
     border: 2px solid blue;
 }
 
+#layout-customer {
+    width: 500px;
+    height: 750px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
 #code-detail {
     width: 700px;
     height: 600px;
     background: #fff;
     margin: 50px auto;
     border: 2px solid blue;
+}
+
+.login-user {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.input-box {
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-box input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.eye {
+    margin-top: 10px;
+    position: absolute;
+}
+
+#hide1 {
+    display: none;
 }
 
 .detail {
