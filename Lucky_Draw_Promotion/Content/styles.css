@@ -1064,6 +1064,35 @@ img {
     background-color: darkorange;
 }
 
+#btn-register {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border-radius: 15px;
+    background-color: darkorange;
+}
+
+#btn-rule {
+    width: 60%;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    background-color: darkorange;
+}
+
 #start-date {
     color: #006666;
     font-weight: bold;
@@ -1331,6 +1360,44 @@ img {
     border: 2px solid blue;
 }
 
+#register {
+    width: 500px;
+    height: 950px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+#landing-page {
+    width: 500px;
+    height: 750px;
+    background: #ff4000;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+#spin-prize-wheel {
+    width: 500px;
+    height: 750px;
+    background: #ff4000;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+#timer-program {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#remind {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+
 #code-detail {
     width: 700px;
     height: 600px;
@@ -1339,7 +1406,45 @@ img {
     border: 2px solid blue;
 }
 
+#days {
+    border-color: #f0f5f5;
+}
+
+#hours {
+    border-color: #f0f5f5;
+}
+
+#minutes {
+    border-color: #f0f5f5;
+}
+
+.count-down {
+    display: flex;
+    transform: scale(1.5);
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
 .login-user {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.register-user {
     width: 95%;
     margin: 0 auto;
 }

@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Register</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <div id="register">
+        <div><img src="~/Images/unilever-logo.png" style="width: 100%;" /></div>
+        <br />
+        <div class="register-user">
+            <div style="font-weight: bold; text-align: center">Đăng ký</div>
+
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Họ và tên" class="col-md-12 py-2" />
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="phone" placeholder="Số điện thoại" class="col-md-12 py-2" />
+            </div>
+
+            <div class="input-box">
+                <input type="text" name="birth" placeholder="Ngày sinh" class="col-md-12 py-2" />
+            </div>
+
+            <div class="input-box">
+                <select class="col-md-12 py-2" style="border-style: none;">
+                    <option disabled selected>Chức vụ</option>
+                    <option></option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <select class="col-md-12 py-2" style="border-style: none;">
+                    <option disabled selected>Loại hình kinh doanh</option>
+                    <option></option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Mật khẩu" class="col-md-12 py-2" />
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" name="check" placeholder="" />&ensp;Tôi xác nhận tôi trên 16 tuổi.
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" name="check" placeholder="" />&ensp;Tôi đồng ý nhận các thông tin khuyến mại, quảng cáo, khảo sát và chăm sóc khách hàng của Unilever.
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" name="check" placeholder="" />&ensp;Tôi đã đọc thông báo về quyền riêng tư của Unilever <u><a href="#" style="color: orange;">tại đây</a></u>.
+            </div>
+            <br /><br />
+            <button id="btn-register">Đăng ký</button>
+            <br /><br />
+            <div style="text-align: center;"><a href="@Url.Action("LoginUser","Customer")" style="color: darkorange"><u>Đăng nhập</u></a></div>
+        </div>
+    </div>
+</body>
+</html>

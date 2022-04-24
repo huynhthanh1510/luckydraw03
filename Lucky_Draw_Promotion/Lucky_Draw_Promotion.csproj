@@ -131,6 +131,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LandingPageController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -194,6 +195,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\countdown.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -242,6 +244,11 @@
     <Content Include="Views\Customer\LoginUser.cshtml" />
     <Content Include="Views\Customer\ForgotPassword.cshtml" />
     <Content Include="Views\Customer\OTPConfirm.cshtml" />
+    <Content Include="Views\Customer\NewPassword.cshtml" />
+    <Content Include="Views\Customer\Register.cshtml" />
+    <Content Include="Views\LandingPage\LandingPage.cshtml" />
+    <Content Include="Views\LandingPage\SpinPrizeWheel.cshtml" />
+    <Content Include="Views\LandingPage\DeliveredAddress.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

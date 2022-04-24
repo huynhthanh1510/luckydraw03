@@ -1,0 +1,65 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Landing Page</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <div id="landing-page">
+        <div><img src="~/Images/unilever-logo.png" style="width: 30%;" /></div>
+        <br />
+        <div id="timer-program">
+            <i>
+                CHƯƠNG TRÌNH BẮT ĐẦU TỪ NGÀY
+                <br />
+                <span style="font-size: 32px;">30/04/2022</span>
+            </i>
+        </div>
+
+        <div id="remind">Vui lòng giữ lại QR-Code để tham gia chương trình.</div>
+
+        <br />
+
+        <div id="count-down" class="count-down">
+            <div class="time">
+                <h2 id="days"></h2>
+                <small style="color: #fff;">NGÀY</small>
+            </div>
+
+            <div class="time">
+                <h2 id="hours"></h2>
+                <small style="color: #fff;">GIỜ</small>
+            </div>
+
+            <div class="time">
+                <h2 id="minutes"></h2>
+                <small style="color: #fff;">PHÚT</small>
+            </div>
+
+            <div class="time">
+                <h2 id="seconds"></h2>
+                <small style="color: #fff;">GIÂY</small>
+            </div>
+        </div>
+
+        <br />
+        <div style="text-align: center;"><button id="btn-rule">THỂ LỆ CHƯƠNG TRÌNH</button></div>
+    </div>
+
+    <script src="~/Scripts/countdown.js"></script>
+</body>
+</html>
