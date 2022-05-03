@@ -1,0 +1,177 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>List of Generated Gifts</title>
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #ccccff">
+    <div>
+        <div id="menu">
+            <ul>
+                <li><img src="~/Images/logo.png" width="64" height="64" /></li>
+                <li><a href="@Url.Action("Dashboard","Main")"><i class="fas fa-home"></i><br />Dashboard</a></li>
+                <li><a href="@Url.Action("CampaignManagement","Main")"><i class="fas fa-tags"></i><br />Campaign</a></li>
+
+                <li>
+                    <a href="#"><i class="fas fa-gift"></i><br />Gift <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="@Url.Action("ListOfGeneratedGifts","Main")">List of Generated Gifts</a></li>
+                        <li><a href="@Url.Action("GiftsCategory","Main")">Gifts Category</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#"><i class="fas fa-user"></i><br />Customer</a></li>
+                <li><a href="#"><i class="fas fa-gear"></i><br />Setting</a></li>
+            </ul>      
+        </div>
+        <div class="search-text">
+            <input type="search" name="Tìm kiếm" placeholder="Search..." />
+            <a href="#" class="search-button">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div id="title1">
+            <h6>&nbsp;<i class="fas fa-home"><span style="color:#6600cc"> Dashboard</span>&nbsp;/ Gifts &nbsp;/ Generated Gifts Code</i></h6>
+        </div>
+
+        <div id="B">
+            <div id="title2">
+                <h5>&nbsp;<i class="fas fa-gift"> Generated Gifts</i></h5>
+            </div>
+            <div id="createcp">
+                <a href="#" style="color: #000"><i class="fas fa-download fa-2x"></i></a>
+            </div>
+        </div>
+        <div id="filter">
+            <select id="select2">
+                <option>Match all filters</option>
+                <option>Match any filters</option>
+            </select>
+            <br />
+            <select id="select3">
+                <option disabled selected>Search criteria</option>
+                <option>Campaign Name</option>
+                <option>Create Date</option>
+                <option>Expired Date</option>
+            </select>
+            <br />
+            <select id="select4">
+                <option disabled selected>Condition...</option>
+                <option id="opt1">Program type is Gift Card</option>
+                <option id="opt2">Start date is more than 1 month</option>
+            </select>
+            <br />
+            <div id="text5">
+                <input type="text" name="value" placeholder="Value" class="col-md-12 py-2" />
+            </div>
+
+            <div>
+                <button id="btnAdd">
+                    <i class="fas fa-plus"></i> Add
+                </button>
+            </div>
+        </div>
+        <div id="filter-cdt">
+            <div id="reload">
+                <button id="btnReload">Reload</button>
+            </div>
+        </div>
+        <div id="data-gifts">
+            <table border="1" , width="100%" height="350px" style="text-align: center">
+                <tr>
+                    <th><i class="fas fa-square"></i></th>
+                    <th>Code</th>
+                    <th>Campaign</th>
+                    <th>Create Date</th>
+                    <th>Expired Date</th>
+                    <th>Usage</th>
+                    <th>Active</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-square"></i></td>
+                    <td>GIF2DHMAAB3E9Y</td>
+                    <td>Lucky Draw 1</td>
+                    <td>02/08/2020 23:59:49</td>
+                    <td>02/11/2020 23:59:49</td>
+                    <td>1/1</td>
+                    <td><input type="checkbox" name="active" checked/></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-square"></i></td>
+                    <td>GIF2DERGH1B3WE</td>
+                    <td>Lucky Draw 1</td>
+                    <td>02/08/2020 23:59:49</td>
+                    <td>02/11/2020 23:59:49</td>
+                    <td>1/1</td>
+                    <td><input type="checkbox" name="active" checked/></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-square"></i></td>
+                    <td>GIF2DQBJLYNCVSD</td>
+                    <td>Lucky Draw 1</td>
+                    <td>02/08/2020 23:59:49</td>
+                    <td>02/11/2020 23:59:49</td>
+                    <td>0/1</td>
+                    <td><input type="checkbox" name="active" checked/></td>
+                    <td></td>
+                    <td><img src="~/Images/icons8-xbox-x-24.png" /></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-square"></i></td>
+                    <td>GIF2DHMALMAQO</td>
+                    <td>Lucky Draw 1</td>
+                    <td>02/08/2020 23:59:49</td>
+                    <td>02/11/2020 23:59:49</td>
+                    <td>0/1</td>
+                    <td><input type="checkbox" name="active" /></td>
+                    <td><i class="fas fa-pencil-square-o"></i></td>
+                    <td><img src="~/Images/icons8-xbox-x-24.png" /></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-square"></i></td>
+                    <td>GIF2DHMANC91U</td>
+                    <td>Lucky Draw 1</td>
+                    <td>02/08/2020 23:59:49</td>
+                    <td>02/11/2020 23:59:49</td>
+                    <td>0/1</td>
+                    <td><input type="checkbox" name="active" checked/></td>
+                    <td></td>
+                    <td><img src="~/Images/icons8-xbox-x-24.png" /></td>
+                </tr>
+            </table>
+            <br />
+            <div>
+                <div style="margin-left: 5px">
+                    Show <select style="width: 50px"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> <i>entries</i>
+                </div>
+                <div><i style="float: right; margin-right: 5px; margin-top: -20px">Showing 1 to 5 of 45 entries</i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

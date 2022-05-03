@@ -1437,6 +1437,23 @@ img {
     justify-content: center;
 }
 
+#menu ul ul {
+    position: absolute;
+    top: 72px;
+    display: none;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#menu ul ul li {
+    width: 200px;
+    position: relative;
+    margin-left: 5px;
+    list-style-type: none;
+}
+
 .time {
     display: flex;
     flex-direction: column;
@@ -1478,6 +1495,14 @@ img {
 .eye {
     margin-top: 10px;
     position: absolute;
+}
+
+.left-10 {
+    margin-left: 10px;
+}
+
+.right {
+    float: right;
 }
 
 .inner-form {

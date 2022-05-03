@@ -38,5 +38,10 @@ namespace Lucky_Draw_Promotion.Controllers
         {
             return View();
         }
+
+        public ActionResult Profile()
+        {
+            return View();
+        }
     }
 }

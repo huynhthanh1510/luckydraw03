@@ -25,7 +25,15 @@
                 <li><img src="~/Images/logo.png" width="64" height="64" /></li>
                 <li><a href="@Url.Action("Dashboard","Main")"><i class="fas fa-home"></i><br />Dashboard</a></li>
                 <li><a href="@Url.Action("CampaignManagement","Main")"><i class="fas fa-tags"></i><br />Campaign</a></li>
-                <li><a href="#"><i class="fas fa-gift"></i><br />Gift</a></li>
+
+                <li>
+                    <a href="#"><i class="fas fa-gift"></i><br />Gift <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="@Url.Action("ListOfGeneratedGifts","Main")">List of Generated Gifts</a></li>
+                        <li><a href="@Url.Action("GiftsCategory","Main")">Gifts Category</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="#"><i class="fas fa-user"></i><br />Customer</a></li>
                 <li><a href="#"><i class="fas fa-gear"></i><br />Setting</a></li>
             </ul>

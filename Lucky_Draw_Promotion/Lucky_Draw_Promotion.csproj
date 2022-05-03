@@ -220,6 +220,9 @@
     <Content Include="Views\LandingPage\DeliveredAddress.cshtml" />
     <Content Include="Views\LandingPage\WinnersList.cshtml" />
     <Content Include="Views\LandingPage\YourGiftsList.cshtml" />
+    <Content Include="Views\LandingPage\Profile.cshtml" />
+    <Content Include="Views\Main\ListOfGeneratedGifts.cshtml" />
+    <Content Include="Views\Main\GiftsCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

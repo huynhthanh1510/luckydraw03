@@ -47,5 +47,15 @@ namespace Lucky_Draw_Promotion.Controllers
         {
             return View();
         }
+
+        public ActionResult ListOfGeneratedGifts()
+        {
+            return View();
+        }
+
+        public ActionResult GiftsCategory()
+        {
+            return View();
+        }
     }
 }
