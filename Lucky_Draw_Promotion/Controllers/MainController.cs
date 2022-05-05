@@ -57,5 +57,10 @@ namespace Lucky_Draw_Promotion.Controllers
         {
             return View();
         }
+
+        public ActionResult Customer()
+        {
+            return View();
+        }
     }
 }

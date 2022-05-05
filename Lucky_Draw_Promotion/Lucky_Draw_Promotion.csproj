@@ -223,6 +223,7 @@
     <Content Include="Views\LandingPage\Profile.cshtml" />
     <Content Include="Views\Main\ListOfGeneratedGifts.cshtml" />
     <Content Include="Views\Main\GiftsCategory.cshtml" />
+    <Content Include="Views\Main\Customer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
